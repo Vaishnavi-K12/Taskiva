@@ -29,37 +29,28 @@
             <!-- Logo -->
 
             <a href="{{ route('dashboard') }}"
-               class="flex items-center gap-3">
+   class="flex items-center gap-3">
 
-                <div class="w-10 h-10
-                            bg-white
-                            rounded-xl
-                            flex items-center
-                            justify-center">
+    <img
+        src="{{ asset('images/taskiva-icon.png') }}"
+        alt="Taskiva"
+        class="w-10 h-10 rounded-xl"
+    >
 
-                    <span class="text-indigo-600
-                                 font-bold text-xl">
+    <div>
+        <h1 class="text-xl font-bold">
+            Taskiva
+        </h1>
 
-                        ✓
+        <p class="text-xs text-indigo-200">
+            Your Profile
+        </p>
+    </div>
 
-                    </span>
-
-                </div>
+</a>
 
 
-                <div>
-
-                    <h1 class="text-xl font-bold">
-                        TaskFlow
-                    </h1>
-
-                    <p class="text-xs text-indigo-200">
-                        Your Profile
-                    </p>
-
-                </div>
-
-            </a>
+            
 
 
             <!-- Back -->
